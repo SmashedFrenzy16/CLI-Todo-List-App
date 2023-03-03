@@ -28,4 +28,18 @@ def add(i):
 
 def ls():
 
-    pass
+    try:
+
+        nec()
+
+        l = len(d)
+
+        m = l
+
+        for i in d:
+
+            sys.stdout.buffer.write(f"[{l}] {d[l]}".encode('utf8'))
+
+            sys.stdout.buffer.write("\n".encode('utf8'))
+            
+            l = l -1 
