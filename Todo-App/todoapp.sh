@@ -1,1 +1,1 @@
-python todo.py
+python todo.py "$@"
