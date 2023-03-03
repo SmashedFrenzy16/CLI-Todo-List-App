@@ -25,3 +25,7 @@ def add(i):
     s = '"'+s+'"'
 
     print(f"Added task: {s}")
+
+def ls():
+
+    pass
