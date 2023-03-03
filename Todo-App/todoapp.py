@@ -11,3 +11,7 @@ $ ./todo done NUMBER      # Complete a todo item
 $ ./todo help             # Help menu
 $ ./todo report           # Statistics"""
     sys.stdout.buffer.write(sa.encode('utf8'))
+
+def add(i):
+
+    pass
