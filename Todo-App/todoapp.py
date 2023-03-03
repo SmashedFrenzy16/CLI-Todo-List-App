@@ -14,4 +14,14 @@ $ ./todo report           # Statistics"""
 
 def add(i):
 
-    pass
+    file = open("todoapp.txt", "a")
+
+    file.write(i)
+
+    file.write("\n")
+
+    file.close()
+
+    s = '"'+s+'"'
+
+    print(f"Added task: {s}")
