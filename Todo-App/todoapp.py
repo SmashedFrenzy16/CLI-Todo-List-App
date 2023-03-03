@@ -47,3 +47,25 @@ def ls():
     except Exception as e:
 
         raise e
+
+def done(no):
+
+    try:
+
+        nec()
+
+        no = int(no)
+
+        file = open("done.txt", "a")
+
+        st = 'x ' + str(datetime.datetime.today()).split()[0] + ' ' + d[no]
+
+        file.write(st)
+
+        file.write("\n")
+
+        file.close()
+
+        print(f"Task #{no} has now been marked as done! One less task to go now!")
+
+        
